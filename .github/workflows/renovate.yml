@@ -58,6 +58,8 @@ jobs:
             repos: "riseandbloom/Rise-and-bloom"
           - owner: sensphere
             repos: "sensphere/sen-sphere"
+          - owner: Megameehunnah
+            repos: "Megameehunnah/MMM-Beauty"
     steps:
       - name: Mint token for ${{ matrix.owner }}
         id: app-token
